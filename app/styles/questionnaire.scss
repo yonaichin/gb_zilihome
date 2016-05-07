@@ -1,0 +1,25 @@
+// bower:scss
+// endbower
+
+footer {
+  ul {
+    &.footer-nav.info {
+      li {
+        color: #747474;
+      }
+    }
+    &.footer-class {
+      li {
+        color: #747474;
+      }
+    }
+  }
+
+}
+
+.content {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background: lightblue;
+}

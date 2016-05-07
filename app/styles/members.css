@@ -1,0 +1,18 @@
+
+
+ul.membersdata{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+}
+ul.membersdata li{
+	padding: 16px;
+}
+form{
+	width: 100%;
+	height: auto;
+}
+
+em{
+	color: red;
+}

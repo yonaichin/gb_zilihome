@@ -1,0 +1,74 @@
+// bower:scss
+// endbower
+
+footer {
+  ul {
+    &.footer-nav.info {
+      li {
+        color: #747474;
+      }
+    }
+    &.footer-class {
+      li {
+        color: #747474;
+      }
+    }
+  }
+
+}
+
+.content {
+  // font-family: 'cwtexyen','Arial';
+  position: relative;
+  height: auto;
+  width: 100%;
+  // background: lightblue;
+  .hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: gold;
+    img {
+      position: relative;;
+      width: 100vw;
+    }
+  }
+  .landing_info {
+    position: relative;
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &.highlight {
+        background: #FCEBF1;
+      }
+      &.ready_text {
+        color: red;
+        text-align: center;
+      }
+
+    }
+    .button_wrapper{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .landing_card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: gold;
+
+    .card {
+      position: relative;
+      background: lightgreen;
+      height: 200px;
+    }
+    .card1 {
+      position: relative;
+      background: hotpink;
+      height: 200px;
+    }
+
+  }
+}
