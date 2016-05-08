@@ -4,7 +4,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
 import del from 'del';
 import {stream as wiredep} from 'wiredep';
-
+import imagemin from 'gulp-imagemin'
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
@@ -75,6 +75,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
 
 gulp.task('images', () => {
   return gulp.src('app/images/**/*')
+    .pipe(imagemin())
     // .pipe($.cache($.imagemin({
     //   progressive: true,
     //   interlaced: true,
