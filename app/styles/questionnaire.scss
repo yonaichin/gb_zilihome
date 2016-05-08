@@ -19,7 +19,76 @@ footer {
 
 .content {
   position: relative;
-  height: 200px;
+  height: auto;
   width: 100%;
-  background: lightblue;
+  overflow-y: hidden;
+  .background {
+    position: absolute;;
+    z-index: -1;
+    width: 100%;
+  }
+  .banner {
+    height: 300px;
+    width:70%;
+    // background: no-repeat center url(../images/instruction-web.png);
+  }
+  .question {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background:lightblue;
+
+  }
+}
+@media (min-width:320px) {
+  .content {
+    .banner {
+      width: 54%;
+      margin-top: -35px;
+      height: 180px;
+      background: no-repeat center url(../images/instruction-phone.png);
+    }
+  }
+}
+@media (min-width:481px) {
+}
+@media (min-width:641px) {
+  .content {
+    .banner {
+      width: 52%;
+      height: 220px;
+      margin-top: 0px;
+      background: no-repeat center url(../images/instruction-tablet.png);
+    }
+  }
+}
+@media (min-width:961px) {
+  .content {
+    .banner {
+      width: 52%;
+      height: 250px;
+      background: no-repeat center url(../images/instruction-tablet.png);
+      margin-top: 0px;
+    }
+  }
+}
+@media (min-width:1025px) {
+  .content {
+    .banner {
+      width: 52%;
+      height: 300px;
+      background: no-repeat center url(../images/instruction-web.png);
+      margin-top: 0px;
+    }
+  }
+}
+@media (min-width:1281px) {
+  .content {
+    .banner {
+      width: 52%;
+      height: 400px;
+      background: no-repeat center url(../images/instruction-web.png);
+      margin-top: 0px;
+    }
+  }
 }
