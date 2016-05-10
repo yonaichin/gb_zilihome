@@ -50,6 +50,18 @@ footer {
     .button_wrapper{
       margin-top: 20px;
       margin-bottom: 20px;
+      button {
+        width: 239px;
+        height: 54px;
+        border: none;
+
+      }
+      .signup_btn {
+        background: no-repeat center url(../images/signup_btn.png);
+      }
+      .skip_btn {
+        background: no-repeat center url(../images/skip_btn.png);
+      }
     }
   }
   .landing_card {
