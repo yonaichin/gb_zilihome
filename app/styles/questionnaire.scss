@@ -17,6 +17,11 @@ footer {
 
 }
 
+button {
+  &:focus {
+    outline: none;
+  }
+}
 .content {
   position: relative;
   height: auto;

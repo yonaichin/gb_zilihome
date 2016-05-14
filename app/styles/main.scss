@@ -27,9 +27,9 @@ footer {
     position: relative;
     width: 100%;
     height: auto;
-    background: gold;
+    // background: gold;
     img {
-      position: relative;;
+      position: relative;
       width: 100vw;
     }
   }
@@ -69,17 +69,54 @@ footer {
     width: 100%;
     height: auto;
     padding: 20px;
-    background: gold;
+    // background: gold;
 
     .card {
       position: relative;
-      background: lightgreen;
-      height: 200px;
-    }
-    .card1 {
-      position: relative;
-      background: hotpink;
-      height: 200px;
+      img {
+        width: 100%;
+        z-index: -1;
+      }
+
+      p.info{
+        margin-bottom: 10px;
+        text-indent: 2em;
+      }
+      .pink_text {
+        color:#E7388F;
+      }
+      .green_text {
+        color:#3E8C65;
+      }
+      .card_text_1 {
+        text-align: left;
+        position: absolute;
+        width: calc(100% - 25%);
+        height: 47%;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
+      }
+      .card_text_2 {
+        text-align: left;
+        position: absolute;
+        width: calc(100% - 25%);
+        height: 47%;
+        top: 32%;
+        left: 47%;
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
+      }
+      // background: no-repeat center url(../images/card_1.jpg);
+      // background-size: cover;
+      // height: 468px;
     }
 
   }

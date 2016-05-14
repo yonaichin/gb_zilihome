@@ -14,6 +14,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/result.css -->
+    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="styles/menuzord.css">
     <link rel="stylesheet" href="styles/motherweb.css">
     <link rel="stylesheet" href="styles/result.css">
@@ -127,7 +128,70 @@
        <!-- header-bottom end -->
     </header>
 
-    <div class="content">result page</div>
+    <div class="content">
+      <img class="background" src="./images/result_background.png" />
+      <div class="result">
+        <div class="row">
+          <div class="col-md-8 col-sm-10 col-xs-12">
+            <img src="./images/result_banner.png" alt="" class="result_banner">
+            <div class="result_summary">
+              <div class="highlight_text col-md-2 col-sm-4 col-xs-12">檢測分數：</div>
+              <div class="col-md-10 col-sm-8 col-xs-12">和平型 8 分/ 氣血虧虛型 99 分 / 虛寒型 29 分 <br/>虛熱型 88 分 / 濕熱型 20 分 / 氣鬱體質 22 分 </div>
+              <div class="highlight_text col-md-2 col-sm-4 col-xs-12">檢測結果：</div>
+              <div class="col-md-10 col-sm-8 col-xs-12">
+                您目前的狀況<span class="underline_text">坐月子中乳汁分泌不足</span>/ 體質屬於：<span class="underline_text">坐月子中乳</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ********
+        HERE Are For Guest Section
+        Text will be centered
+        Starts
+        ********  -->
+
+        <!-- <div class="tip col-md-offset-1 col-md-10 col-sm-10 col-xs-10 text-center">
+          <p class="grey_text">
+          進一步獲得您的膳食養護方案：限會員瀏覽
+          </p>
+          <button class="result_member_only_btn"></button>
+        </div> -->
+
+        <!-- ********
+        HERE Are For Guest Section
+        Text will be centered
+        Ends
+        ********  -->
+        <!-- Member Only Section Begin -->
+        <div class="tip col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-11 col-xs-offset-1 col-xs-10">
+          <p class="blue_text tip_heading">
+          風澤診所中醫師小叮嚀：
+          </p>
+          <ul>
+            <li>這裡是小叮小叮小叮小叮小叮小叮小叮小叮小叮小叮嚀嚀嚀嚀嚀嚀嚀嚀嚀嚀小叮嚀</li>
+            <li>這裡是小叮小叮小叮小叮小叮小叮小叮小叮小叮小叮嚀嚀嚀嚀嚀嚀嚀嚀嚀嚀小叮嚀</li>
+          </ul>
+        </div>
+        <div class="suggestion col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-11 col-xs-offset-1 col-xs-10">
+          <p class="pink_text suggestion_heading">
+            紫莉月子經濟體質膳食建議方案：
+          </p>
+          <p class="pink_text suggestion_heading">
+            平和體質：
+          </p>
+          <ul>
+            <li>燉品：小建議小建議小建議小建議小建議小建議</li>
+            <li>茶飲：小建議小建議小建議小建議小建議小建議</li>
+            <li>甜品：小建議小建議小建議小建議小建議小建議</li>
+            <li>湯藥：小建議小建議小建議小建議小建議小建議</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-sm-12-col-xs-12 text-center">
+          <button class="result_finish_btn"></button>
+        </div>
+        <!-- Member Only Section End -->
+      </div>
+    </div>
 
     <!-- footer -->
     <footer>
@@ -186,14 +250,16 @@
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/jquery-ui/jquery-ui.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:js scripts/main.js -->
     <script src="scripts/jquery.dotdotdot.min.js"></script>
     <script src="scripts/menuzord.js"></script>
     <script src="scripts/sweetalert.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/result.js -->
+    <script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/result.js"></script>
     <!-- endbuild -->
   </body>
 </html>

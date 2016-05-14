@@ -1,9 +1,3 @@
 $(document).on('ready', function(){
-  $("#menuzord").menuzord({
-    align: "left",
-  });
-  if($('.showhide').length > 1) {
-    $('.showhide:eq(0)').remove();
-  }
-
+  $('.card_text_1,.card_text_2').mCustomScrollbar();
 });
